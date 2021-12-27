@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My School Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Wolsey Hall Oxford</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#school_life">School Life</a></li>
+        <li><a href="#school_achievments">Achievments</a></li>
+        <li><a href="#whats_new">What's new</a></li>
+        <li><a href="#alumini">Alumini</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+</nav>
+    <div class="announcement">
+    <marquee id="marqueeStyle" onmouseover="this.start();"> Feel free to ask questions on my school gmail id = jane.doe@wolseyhalloxford.org.uk. Happy Reading! 
+        </marquee>
+    </div>
+    <center>
+   <iframe width="727" height="409" src="https://www.youtube.com/embed/VtNZCtjBk2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </center>
+    <div class="container">
+        <div class="page-header" id="school_life">
+            <center>
+        <h2 class="text-capitalize"> School Life </h2> 
+            <div class="row">
+            <div class="travel_mainDiv">
+                <img class="img-responsive" src="http://images.ctfassets.net/3s5io6mnxfqz/wfAz3zUBbrcf1eSMLZi8u/c03ac28c778813bd72373644ee8b8b02/AdobeStock_364059453.jpeg">
+                <h4 class="text-capitalize"><kbd> Wolsey Hall Chess Club</kbd></h4>
+                <hr>
+                <h5 class="text-sucess text left text-capitalize"> Our Chess Club is open to all our students of any age. </h5>
+                <p class="text-muted text left" Chess encourages critical thinking skills and aids cognitive development plus it is fun!></p>
+                       
+                </div>
+                <div class="travel_mainDiv">
+                <img class="img-responsive" src="https://i2.wp.com/www.studica.com/blog/storage/2014/01/art-and-STEM.jpg">
+                    <h4 class="text-capitalize"><kbd> Wolsey Hall Art Club</kbd></h4>
+                <hr>
+                <h5 class="text-sucess text left text-capitalize"> Our Art Club is open to all our students.  </h5>
+                <p class="text-muted text left" Need a little inspiration? Check out some previous submissions on our website then get entering this months art competition!></p>
+         
+                
+                </div>
+                
+                 <div class="travel_mainDiv">
+                <img class="img-responsive" src="data:image/jpeg;base64,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">
+                    <h4 class="text-capitalize"><kbd> Wolsey Hall Virtual Library</kbd></h4>
+                <hr>
+                <h5 class="text-sucess text left text-capitalize"> Our virtual library for students has launched!   </h5>
+                <p class="text-muted text left" With so many books to choose from for all different ages, you will be spoilt for choice. Access our eLibrary anywhere, anytime, on multiple devices. Details of how to create your library account can be found on our student community website.></p>
+                                 </div>         </div>     
+         
+                
+            
+    <div class="page-header" id="school_achievments">
+    </div>
+    
+    <div class="bg-primary movie head" data-toggle="collapse" data-target="#mlpthemovie_endgame" >
+    <span class="glyphicon glyphicon-film" > </span> WOLSEY HALL BIOLOGY STUDENT: CELIA SHERRIFF
+    <i class="fa fa sort-desk"> </i>
+    </div>
+<div id="mlpthemovie_endgame" class="collapse">
+    <div class="col-lg-3-col-md-9-col-sm-3-col-xs-12 movie text"> 
+        <h5 class="text-sucess text-left tezt-capitalize" Biology Prodgy: Celia Sherriff> </h5>
+        
+        <p> Wolsey Hall Oxford student Celia Sherriff who is homeschooling in Zambia, was selected by the British Council in Zambia (where she sat her IGCSE exams) to receive the Cambridge Outstanding Learner Award certificate and prize for her excellent result in IGCSE Biology. </p>
+    </div>
+    </div>
+                     
+
+   
+    <div class="page-header col-lg-3-col-md-9-col-sm-3-col-xs-12" id="whats_new">
+        <h2 class="text-capitalize" what is new?></h2>
+            </div>
+    
+    <ul class="list-group">
+    <li class="list-group-item col-lg-12-col-md-12-col-sm-12-col-xs-12 environment_li">
+        <h4> An Excellent homeschooling platform </h4>
+        <img src="https://media-exp1.licdn.com/dms/image/C560BAQG9tpNfjQn2SA/company-logo_200_200/0/1523347254179?e=2159024400&v=beta&t=xa7VP13R0dqJINKo_GgOoKewVacAy-4UjU5BnokILMI" class="img-responsive col-lg-5-col-md-5-col-sm-5-col-xs-12">
+        <p class="list-group-item-text col-lg-7-col-md-7-col-sm-7-col-xs-12"> Founded in 1894, Wolsey Hall Oxford is one of the longest established homeschooling colleges in the world . Based in Oxford, England, Wolsey Hall Oxford provides home study courses in a range of academic subjects to students in more than 60 countries.
+
+The College accepts children being schooled at home and mature students of all ages. These students access the course curricula via a web-based learning system and are supported by online tutors. </p></li>
+        
+         <li class="list-group-item  col-lg-12-col-md-12-col-sm-12-col-xs-12 environment_li">
+        <h4> History of the Wolsey Hall Oxford and it's founder </h4>
+        <img src="https://s3-eu-west-1.amazonaws.com/images.dailyinformation.co.uk/venue/6d804df9-0f0f-4f5f-80df-ee4c2d5c421d/73139eb5ab533c982bac368e0abf43df" class="img-responsive col-lg-5-col-md-5-col-sm-5-col-xs-12">
+        <p class="list-group-item-text col-lg-7-col-md-7-col-sm-7-col-xs-12">Wolsey Hall Oxford was founded in 1894 by Joseph William Knipe. At his teachers' college, he took such excellent lecture notes that the other students asked him to make copies for them. After graduating from college he decided that there might be some interesting teaching possibilities by combining first class lecture notes with an emerging nineteenth century new technology - "The Penny Post". In its first year Wolsey Hall Oxford had just 6 students.
+
+In 1942, Wolsey Hall Oxford was appointed by the War Office to provide Courses for the forces and as such during the remaining war years was a key supplier of courses to members of the British Armed Services. A typical month in the Army would alternate between serious action and long stretches with little going on. Many servicemen and women used these quiet times to educate themselves for life back in "civvies" after the war ended.
+
+During the 1930s–1980s, Wolsey Hall Oxford served as a provider of degree level courses via the University of London external degree programme.
+
+After the war, demand for courses, especially GCE 'O' and 'A' levels and the external degrees of London University continued to grow. A number of the original typed lesson notes and test prompts from 1949/1950 London B.Sc Econ. degree are contained within the Magdalen College, University of Oxford, Library Archive. That was the period too when Wolsey Hall went truly international and there was a great growth in numbers of students studying from outside the UK, from countries such as Hong Kong, Malaysia, Singapore, Kenya, Nigeria, Canada, Guyana, Mauritius, Jamaica and Trinidad.
+
+Many years later Wolsey Hall Oxford launched the first distance learning MBA in 1985 with Warwick Business School. In the 1990s the College built on this experience and provided management development courses to a variety of blue chip organisations including British Airways, the Civil Aviation Authority (United Kingdom), Her Majesty's Prison Service, Lloyds TSB, Shell Exploration.
+
+Wolsey Hall Oxford is considered as the pioneer in the field of correspondence degrees later entered by the Open University.
+
+Today Wolsey Hall Oxford has refocused on its roots and offers a range of academic courses to both mature students and homeschoolers throughout the world, using web-based learning systems.
+
+ </p></li>
+    
+    
+    
+    </ul>
+    
+    
+        
+    <div class="col-lg-3-col-md-3-col-sm-3-col-xs-6 book" id="alumini" data-toggle="modal" data-target="#s.r.nathan">
+        <img src="https://wolseyhalloxford.org.uk/wp-content/uploads/2019/06/Alumni_SR-Nathan_Singapore-President-2.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary"> S.R Nathan </p>
+        </div>
+
+        <div class="modal-fade" id="s.r.nathan">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"> S.R Nathan</h4></div>
+                <div class="modal-body">
+                <img src="https://wolseyhalloxford.org.uk/wp-content/uploads/2019/06/Alumni_SR-Nathan_Singapore-President-2.jpg" class="img-responsive img_modal">
+                <p class="p_modal"> Sellapan Ramanathan DUT (First Class), ( /ˈsɛləpən rɑːməˈnɑːðən/; 3 July 1924 – 22 August 2016), usually referred to as S. R. Nathan, was a Singaporean politician who was the sixth President of Singapore and the commander-in-chief of the Singapore Armed Forces serving a twelve-year term from 1 September 1999 to 31 August 2011, having been elected in uncontested elections in the 1999 Singaporean presidential election and in the 2005 Singaporean presidential election. He was Singapore's longest-serving president.
+
+In 2009, he surpassed Benjamin Sheares to become Singapore's longest-serving President. He was reportedly considering re-election, but announced on 2 July 2011 that he would not run for re-election. Nathan suffered a stroke on 31 July 2016 and was taken to Singapore General Hospital's Intensive Care Unit. He died in hospital on 22 August, aged 92. 
+                    <br>
+                    <a href="https://en.wikipedia.org/wiki/S._R._Nathan"><b> Click to know more</b>
+                    </a>
+                    </p>
+                </div>
+                </div>
+            </div>
+            </div>
+            
+  
+                <div class="col-lg-3-col-md-3-col-sm-3-col-xs-6 book" id="alumini" data-toggle="modal" data-target="#amelie_morgan">
+        <img src="https://wolseyhalloxford.org.uk/wp-content/uploads/2021/04/2018-10-12_Gymnastics_at_2018_Summer_Youth_Olympics_%E2%80%93_Girls_Artistic_Gymnastics_%E2%80%93_All-around_final_%E2%80%93_Victory_ceremony_Martin_Rulsch_40-min-768x522.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary"> Amelie Morgan </p>
+        </div>
+
+        <div class="modal-fade" id="amelie_morgan">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Amelie Morgan</h4></div>
+                <div class="modal-body">
+                <img src="https://wolseyhalloxford.org.uk/wp-content/uploads/2021/04/2018-10-12_Gymnastics_at_2018_Summer_Youth_Olympics_%E2%80%93_Girls_Artistic_Gymnastics_%E2%80%93_All-around_final_%E2%80%93_Victory_ceremony_Martin_Rulsch_40-min-768x522.jpg" class="img-responsive img_modal">
+                <p class="p_modal"> Amelie Morgan (born 31 May 2003) is a British artistic gymnast who is mainly known on the CBBC show, Gym Stars. She won the silver medal in the all-around at the 2018 Youth Olympics in October 2018, as well as a silver medal on the floor exercise and a bronze on the balance beam. Earlier in 2018, she participated at the 2018 European Artistic Gymnastics Championships where she encountered unparallelled success by claiming five medals (two silvers and three bronzes)—the most medals won by a British junior female gymnast. At the 2021 Artistic Gymnastics European Championships, Morgan picked up a bronze medal on the uneven bars.
+                    <br>
+                    <a href="https://en.wikipedia.org/wiki/Amelie_Morgan"><b> Click to know more</b>
+                    </a>
+                    </p>
+                </div>
+                </div>
+            </div>
+            </div>
+            
+            
+                      <div class="col-lg-3-col-md-3-col-sm-3-col-xs-6 book" id="alumini" data-toggle="modal" data-target="#sir_harold_evans">
+        <img src="https://wolseyhalloxford.org.uk/wp-content/uploads/2017/11/Sir-Harold-Evans-Wolsey-Hall.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary"> Sir Harold Evans </p>
+        </div>
+
+        <div class="modal-fade" id="sir_harold_evans">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Sir Harold Evans</h4></div>
+                <div class="modal-body">
+                <img src="https://wolseyhalloxford.org.uk/wp-content/uploads/2017/11/Sir-Harold-Evans-Wolsey-Hall.jpg" class="img-responsive img_modal">
+                <p class="p_modal"> Sir Harold Matthew Evans was a British-American journalist and writer. In his career in his native Britain, he was editor of The Sunday Times from 1967 to 1981, and its sister title The Times for a year from 1981, before being forced out of the latter post by Rupert Murdoch. Sir Harold Matthew Evans was a British-American journalist and writer. In his career in his native Britain, he was editor of The Sunday Times from 1967 to 1981, and its sister title The Times for a year from 1981, before being forced out of the latter post by Rupert Murdoch. 
+                    <br>
+                    <a href="https://en.wikipedia.org/wiki/Harold_Evans"><b> Click to know more</b>
+                    </a>
+                    </p>
+                </div>
+                </div>
+            </div>
+            </div>
+            
+  
+  </center>
+        
+        
+        
+        
+<center>
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    <div class="page-header col-lg-12-col-md-12-col-sm-12-col-xs-12" id="contact">
+        <h2 class="text-capitalize"> Contact Us </h2>
+        </div>
+    <div id="datails">
+       <img src="https://cdn1.vectorstock.com/i/1000x1000/38/90/school-principal-flat-cartoon-character-vector-21513890.jpg" class="img-responsive img-circle col-lg-3-col-md-3-col-sm-3-col-xs-4">
+        <h3> My Principal's Name is:</h3>
+        <h4> Principal Lee Wilcock BA </h4>
+        <div class="contact_1">
+        <a href="jane.doe@wolseyhalloxford.org.uk">
+            <h5> <i class="fa fa-envelope"></i>&nbsp;&nbsp; My School Gmail </h5>
+            </a>
+            <a href="#">
+              <h5> <i class="fa fa-instagram"></i>&nbsp;&nbsp; My School Instagram: https://www.instagram.com/wolseyhalloxford/?hl=en </h5>   
+                 </a>
+            <a href="#">
+                 <h5> <i class="fa fa-phone-square"></i>&nbsp;&nbsp; My school hotline: +44 0800 622 6599 </h5>
+                </a>
+        </div>
+        </div>
+    </div>
+    </body>
+</html>
